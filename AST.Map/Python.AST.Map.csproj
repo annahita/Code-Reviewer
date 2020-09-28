@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Python.Antlr\Python.Antlr.csproj" />
+		<ProjectReference Include="..\Python.Model\Python.Model.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>Python.AST.Map.Test</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+</Project>

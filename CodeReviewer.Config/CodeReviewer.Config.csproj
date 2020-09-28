@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Castle.Windsor" Version="5.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AST.Map\Python.AST.Map.csproj" />
+		<ProjectReference Include="..\clean_code\CleanCode.csproj" />
+		<ProjectReference Include="..\Python.Antlr\Python.Antlr.csproj" />
+	</ItemGroup>
+
+</Project>
