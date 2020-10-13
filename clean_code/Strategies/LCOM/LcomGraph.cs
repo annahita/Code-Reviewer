@@ -29,8 +29,8 @@ namespace CleanCode.Strategies.LCOM
             _classGraph = new UndirectedGraph(_classMethods.Count());
 
             for (var i = 0; i < _classMethods.Count(); i++)
-            for (var j = i + 1; j < _classMethods.Count(); j++)
-                AddEdgeForConnectedMethods(i, j);
+                 for (var j = i + 1; j < _classMethods.Count(); j++)
+                      AddEdgeForConnectedMethods(i, j);
         }
 
         private void AddEdgeForConnectedMethods(int vertexI, int vertexJ)
