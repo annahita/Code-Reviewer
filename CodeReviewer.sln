@@ -92,7 +92,7 @@ Global
 		{D0E95FAA-9EA4-4BBC-A966-0A04FDD93BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E95FAA-9EA4-4BBC-A966-0A04FDD93BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
+	GlobalSection(SolutionProperties) = preSolution 
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
